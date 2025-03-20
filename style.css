@@ -1,0 +1,100 @@
+body {
+    background-color: #2C3E50;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Limelight", sans-serif;
+}
+
+/*navbar*/
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    background-color: #2C3E50;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    align-items: center;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-right: 50px;
+}
+
+.navbar-logo {
+    color: #FDEBD0;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.navbar-menu li {
+    display: inline;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: #FDEBD0;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.navbar-menu a:hover {
+    color: #E67E22;
+}
+
+
+
+
+/*väliaikainen, jotta kuvat ei olisi tiellä*/
+img {
+    width: 200px;
+}
+
+
+
+
+
+/*Taustan väri palkit*/
+.background {
+    z-index: 2;
+}
+.dark-bg {
+    background-color: #2C3E50;
+    height: 80vh;
+    width: 100%;
+}
+.black-line {
+    background-color: #1a1918;
+    height: 40vh;
+    width: 100%;
+}
+.light-bg {
+    background-color: #f5e1bf;
+    height: 80vh;
+    width: 100%;
+}
+
+
+
+
+/*scroll merkitylle kohdalle*/
+#about {
+    scroll-margin-top: 80px;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+
+/*myöhemmin korjata näkymä puhelimelle!!!*/
