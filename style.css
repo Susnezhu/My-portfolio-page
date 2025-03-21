@@ -29,7 +29,7 @@ body {
 
 .navbar-logo {
     color: #FDEBD0;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
     text-decoration: none;
 }
@@ -53,13 +53,6 @@ body {
 
 
 
-/*väliaikainen, jotta kuvat ei olisi tiellä*/
-img {
-    width: 200px;
-}
-
-
-
 
 
 /*Taustan väri palkit*/
@@ -68,17 +61,17 @@ img {
 }
 .dark-bg {
     background-color: #2C3E50;
-    height: 80vh;
+    height: 90vh;
     width: 100%;
 }
 .black-line {
     background-color: #1a1918;
-    height: 40vh;
+    height: 30vh;
     width: 100%;
 }
 .light-bg {
     background-color: #f5e1bf;
-    height: 80vh;
+    height: 90vh;
     width: 100%;
 }
 
@@ -93,7 +86,7 @@ img {
     scroll-margin-top: 80px;
 }
 #skills {
-    scroll-margin-top: 80px;
+    scroll-margin-top: 81px;
 }
 
 html {
@@ -101,6 +94,303 @@ html {
 }
 
 
+
+/*kuvat*/
+.portfolio-one-line img {
+    position: absolute;
+    top: 350px;
+    right: 300px;
+    width: 800px;
+    z-index: 4;
+}
+
+.portfolio-bg img{
+    position: absolute;
+    top: 460px;
+    right: 300px;
+    width: 800px;
+    z-index: 2;
+}
+
+.resume-bg img{
+    position: absolute;
+    top: 1450px;
+    right: 100px;
+    width: 700px;
+}
+
+.projects-bg img{
+    position: absolute;
+    top: 2300px;
+    left: 20px;
+    width: 700px;
+}
+
+
+
+.me-main img {
+    position: absolute;
+    top: 190px;
+    left: 0px;
+    width: 550px;
+    z-index: 3;
+}
+.me-contact img {
+    position: absolute;
+    top: 1000px;
+    right: 200px;
+    width: 500px;
+}
+
+
+
+/*yksityiskohta kuvat*/
+.lang-pic img {
+    position: absolute;
+    top: 3080px;
+    left: 50px;
+    width: 210px;
+}
+.sew-pic img {
+    position: absolute;
+    top:3680px;
+    left: 365px;
+    width: 50px;
+}
+.skate-pic img {
+    position: absolute;
+    top:3700px;
+    left: 630px;
+    width: 150px;
+}
+.book-pic img {
+    position: absolute;
+    top:3690px;
+    left: 1020px;
+    width: 60px;
+}
+
+
+
+/*tekstit*/
+.contact {
+    position: absolute;
+    top:1350px;
+    right: 100px;
+    color: #f5e1bf;
+    padding: 200px;
+    font-size: 18px;
+    text-align: center;
+}
+.contact h4 {
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+
+.about-me {
+    position: absolute;
+    top:1100px;
+    left: 100px;
+    color:#1a1918;
+    text-align: left;
+    width: 500px;
+    font-size: 25px;
+}
+.about-me h4 {
+    font-size: 50px;
+    margin-bottom: 0;
+}
+.born {
+    position: absolute;
+    text-align: center;
+    width: 250px;
+    height: 20px;
+    line-height: 20px;
+    top:1300px;
+    right: 60px;
+    font-size: 20px;
+    padding: 20px;
+    background-color: #E67E22;
+    border-radius: 35px;
+}
+
+
+
+.education {
+    position: absolute;
+    top:1750px;
+    left:100px;
+    text-align: left;
+    font-size: 15px;
+    color:#f5e1bf;
+}
+.education h4{
+    font-size: 40px;
+    color:#E67E22;
+    margin: 0px;
+}
+.education h5 {
+    font-size: 25px;
+}
+.education p {
+    padding-top: 30px;
+}
+.schools {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items:center;
+}
+.education dt {
+    font-size: 20px;
+}
+.education dd {
+    margin-left: 0px;
+}
+
+
+
+
+.coding-skills {
+    position: absolute;
+    top:2000px;
+    left:150px;
+    text-align: left;
+    font-size: 20px;
+    width: 400px;
+    height: 400px;
+    font-size: 25px;
+    background-color: #E67E22;
+    border-radius: 35px;
+    padding-top:20px;
+    padding-left: 50px;
+}
+
+.coding-skills h4 {
+    font-size: 35px;
+}
+.coding-skills ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.coding-skills li {
+    margin-bottom: 30px;
+    background: url('/kuvat/star.png')no-repeat left center;
+    padding-left: 30px;
+    background-size: 20px 20px;
+}
+
+
+.software-skills {
+    position: absolute;
+    top:2000px;
+    right:350px;
+    text-align: left;
+    font-size: 20px;
+    color:#f5e1bf
+}
+
+.software-skills h4 {
+    font-size: 30px;
+    margin-bottom: 0;
+    color:#E67E22;
+}
+
+.software-skills ul {
+    list-style-type: none;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+.software-skills li {
+    margin-bottom: 15px;
+}
+
+
+
+.projects {
+    position: absolute;
+    top: 2650px;
+    right: 100px;
+    text-align: right;
+    font-size: 50px;
+}
+.project-links {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items:center;
+}
+.project-links a {
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #d4a752;
+    padding: 15px;
+    border-radius: 35px;
+    width: 300px;
+    height: 50px;
+    text-decoration: none;
+    color:#1a1918;
+}
+
+.project-links a:hover {
+    background-color: #E67E22;
+}
+
+.language {
+    position: absolute;
+    top:3155px;
+    left: 100px;
+    text-align: left;
+    font-size: 20px;
+    color:#f5e1bf;
+}
+
+.language h4 {
+    font-size: 40px;
+    color:#d4a752;
+    margin-bottom: 0;
+}
+.lang-flex dl{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items:center;
+}
+.row dt {
+    font-size: 25px;
+}
+.row dd{
+    margin-left: 0;
+    font-size: 15px;
+}
+
+
+.hobbies {
+    position: absolute;
+    top: 3555px;
+    left: 50%;
+    transform: translate(-50%);
+    color: #f5e1bf;
+    text-align: center;
+    font-size: 20px;
+}
+.hobbies h4 {
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+.hobby-flex ul{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    align-items:center;
+}
+.hobby-flex li {
+    list-style-type: none;
+}
 
 
 
