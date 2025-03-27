@@ -1,0 +1,34 @@
+@media (max-width: 900px) {
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+
+    .sorting-game {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .sorting-game video{
+        width: 400px;
+    }
+    .sorting-game h4 {
+        margin-top: 0;
+    }
+
+    .column {
+        width: 350px;
+        margin-left: 20px;
+    }
+
+    .column-in {
+        width: 350px;
+        gap: 10px;
+    }
+    .column-in a {
+        font-size: 15px;
+    }
+
+}
