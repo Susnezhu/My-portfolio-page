@@ -32,3 +32,15 @@
     }
 
 }
+
+@media (max-width: 740px) {
+    .sorting-game video {
+        width: 360px;
+    }
+    .sorting-game {
+        margin-left: 0;
+    }
+    .column {
+        margin-left: 5px;
+    }
+}

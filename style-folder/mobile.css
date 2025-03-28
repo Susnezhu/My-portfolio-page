@@ -214,7 +214,89 @@
         gap: 70px;
         padding: 0;
     }
+}
+
+@media (max-width: 740px) {
+    .light-bg {
+        height: 110vh;
+    }
 
 
-    
+    #about {
+        scroll-margin-top: 0px;
+    }
+    #projects {
+        scroll-margin-top: 0px;
+    }
+    #skills {
+        scroll-margin-top: 40px;
+    }
+
+
+    .resume-bg img{
+        top:1350px;
+    }
+    .projects-bg img {
+        top:2350px;
+        width: 350px;
+    }
+    .lang-pic img {
+        top:2950px;
+    }
+    .sew-pic img{
+        top:3470px;
+        left:165px;
+    }
+    .skate-pic img{
+        top:3590px;
+        left:135px
+    }
+    .book-pic img{
+        top:3690px;
+        left:160px;
+    }
+
+
+
+    .me-contact img {
+        top:1050px;
+    }
+    .about-me {
+        font-size: 15px;
+        top: 755px;
+    }
+    .contact {
+        top:1315px;
+    }
+    .born {
+        top:1220px;
+    }
+
+
+    .education {
+        top:1650px;
+    }
+    .software-skills {
+        top:1800px;
+    }
+    .coding-skills {
+        top:1950px;
+        left: 10px;
+    }
+
+
+    .projects {
+        top:2400px;
+    }
+
+
+    .language {
+        top: 3000px;
+    }
+
+    .hobbies {
+        top: 3350px;
+
+    }
+
 }
